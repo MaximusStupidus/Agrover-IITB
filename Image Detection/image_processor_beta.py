@@ -62,10 +62,10 @@ processing_factor=142
 #filename=r"D:\Coding Workspace\Agrover\Agrover\Image Detection\0a8a68ee-f587-4dea-beec-79d02e7d3fa4___RS_Early.B 8461.JPG"
 #filename=r"D:\Coding Workspace\Agrover\Agrover\Image Detection\PotatoPics\Potato___Early_blight\0a6983a5-895e-4e68-9edb-88adf79211e9___RS_Early.B 9072.JPG"
 #filename=r"D:\Coding Workspace\Agrover\Agrover\Image Detection\PotatoPics\Potato___healthy\0f4ebc5a-d646-436a-919d-961342997cde___RS_HL 4183.JPG"
-filename="D:\Coding Workspace\Agrover\Agrover\Image Detection\download.jpg"
+filename=r"D:\Coding Workspace\Agrover\Agrover\Image Detection\download1.jpg"
 #filename=r"D:\Coding Workspace\Agrover\Agrover\Image Detection\fresh-green-leaf-potato-plant-260nw-449327257.jpg"
 result,Disease=ProcessImage()
-if result>20:
+if result>10:
     print("Disease")
 else:
     print("Normal")
